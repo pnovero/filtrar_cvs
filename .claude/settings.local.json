@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv pip *)",
+      "Bash(curl -sf http://127.0.0.1:8001/healthz)",
+      "Bash(API_URL=http://127.0.0.1:8001 LOCAL_MODE=1 GCS_BUCKET=test uv run python scripts/test_api.py)"
+    ]
+  }
+}
